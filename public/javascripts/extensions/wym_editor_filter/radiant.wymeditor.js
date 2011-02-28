@@ -249,7 +249,7 @@ function boot_wym(elem) {
      * @param wym - the editor
      */
     postInit: function(wym) {
-        
+
       // map the index of this instance to it's page_part
       editors[elem.id] = wym._index;
 
@@ -306,7 +306,7 @@ function boot_wym(elem) {
 
       // save converted html
       wym._html = content;
-        
+
     }
 
   });
@@ -771,3 +771,4 @@ function initBlockUI(wym, dialogType) {
 
   };
 };
+
