@@ -387,7 +387,6 @@ function unboot_wym(elem){
 
   // clean whitespace
   content = content.replace(new RegExp('^\\s*\\n', 'gm'), '');
-  console.log('cleaned whitespace');
   // update textarea content
   elem.value = style_html(content);
 
@@ -773,3 +772,4 @@ function initBlockUI(wym, dialogType) {
 
   };
 };
+
